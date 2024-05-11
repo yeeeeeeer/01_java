@@ -23,9 +23,7 @@ public class Qusetion {
         * 3. 합격과 불합격 처리
         * */
 
-        B_question b = new B_question();
-        b.point();  //
-
-
+        Point p = new Point();
+        p.point();  //
     }
 }
