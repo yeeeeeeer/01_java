@@ -1,6 +1,6 @@
 package main.java.com.ohgiraffers.section01.conditional.question;
 
-public class Qusetion {
+public class Result {
     public static void main(String[] args) {
 
         /*
@@ -12,18 +12,18 @@ public class Qusetion {
          * */
 
         /*
-        * 1. 세 과목 점수 입력받기
-        * 1-1. 스캐너 사용해서 입력창 만들기
-        * 1-2. 사용자에게 점수입력 메세지
-        * 1-3. 점수 저장하기
+         * 1. 세 과목 점수 입력받기
+         * 1-1. 스캐너 사용해서 입력창 만들기
+         * 1-2. 사용자에게 점수입력 메세지
+         * 1-3. 점수 저장하기
 
-        * 2. 메소드 만들기 매개변수 3개인 <- 평균 구하는 메소드
-        * 2-1. 매개변수로 전달받은 값이 40이 넘어서는지 확인
+         * 2. 메소드 만들기 매개변수 3개인 <- 평균 구하는 메소드
+         * 2-1. 매개변수로 전달받은 값이 40이 넘어서는지 확인
 
-        * 3. 합격과 불합격 처리
-        * */
+         * 3. 합격과 불합격 처리
+         * */
 
         Point p = new Point();
-        p.point();  //
+        p.point();   // point 메소드 불러옴
     }
 }
