@@ -50,7 +50,7 @@ public class Question {
                 secondMax = arr[i];
                 int[] arr2 = new int[secondMax];
                 for (int j = 0; j < secondMax; j++) {
-                    if(arr[j])
+//                    if(arr[j]);
                 }
             }
         }
