@@ -40,6 +40,43 @@ public class MemberDTO {
     
     // alt + insert 단축키 누르면 DTO 됨
 
+    public int getNumber() {
+        return number;
+    }
+    public void setNumber(int number) {
+        this.number = number;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public int getAge() {
+        return age;
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
+    public char getGender() {
+        return gender;
+    }
+    public void setGender(char gender) {
+        this.gender = gender;
+    }
+    public double getWeight() {
+        return weight;
+    }
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+    public boolean isActivated() {
+        return isActivated;
+    }
+    public void setActivated(boolean activated) {
+        isActivated = activated;
+    }
+
 
 
 }

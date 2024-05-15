@@ -1,5 +1,7 @@
 package section04.construct;
 
+import java.util.Date;
+
 public class User {
 
     private String id;
