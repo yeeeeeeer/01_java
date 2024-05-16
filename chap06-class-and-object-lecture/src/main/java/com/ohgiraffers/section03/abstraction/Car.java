@@ -7,7 +7,7 @@ public class Car {
     // 속도
     private int speed;
 
-    // 시동을 거는 메소드
+    // 시동을 거는 메소드 - 1
     public void startUp() {
         if (isOn) {
             System.out.println("이미 시동이 걸려 있습니다.");
@@ -17,7 +17,7 @@ public class Car {
         }
     }
 
-    // 앞으로 가는 메소드
+    // 앞으로 가는 메소드 - 2
     public void go() {
         if (isOn) {
             if (speed == 0) {
@@ -30,7 +30,7 @@ public class Car {
         }
     }
 
-    // 멈추는 메소드
+    // 멈추는 메소드 - 3
     public void stop() {
         if (isOn) {
             if (this.speed > 0) {
@@ -46,7 +46,7 @@ public class Car {
         }
     }
     
-    // 시동끄는 메소드
+    // 시동끄는 메소드 - 4
     public void turnOff(){
         if(isOn){
             if(this.speed > 0){
