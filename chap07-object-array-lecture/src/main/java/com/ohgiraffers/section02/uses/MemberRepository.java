@@ -12,6 +12,7 @@ public class MemberRepository {
         members = new Member[10];  // 10명만 받을 것이라는 의미
     }
 
+    // 가입 처리
     // 멤버등록할 메소드 / 10명만 받는 if문
     public static boolean store(Member[] newMembers) {
         for (int i = 0; i < newMembers.length; i++) {
@@ -31,4 +32,7 @@ public class MemberRepository {
     public static Member[] findAllMembers() {
         return members;
     }
+
+    // 로그인 처리 - 가입목록 == 회원 -> "로그인 완료" / "가입회원 x"
+
 }

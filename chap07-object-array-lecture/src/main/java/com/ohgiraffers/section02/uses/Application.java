@@ -31,9 +31,9 @@ public class Application {
             
             switch (no){
                 case 1 :
-                    memberService.signUpMembers(); break;
+                    memberService.signUpMembers(); break;    // 회원 등록
                 case 2:
-                    memberService.showAllMembers(); break;
+                    memberService.showAllMembers(); break;    // 회원 조회
                 case 9 :
                     System.out.println("프로그램 종료");  return;  // return 하면 메소드 밖으로 나가면서 종료됨
                 default:
